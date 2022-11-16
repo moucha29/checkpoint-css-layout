@@ -1,0 +1,130 @@
+body {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: -webkit-sticky;
+
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(9, 182, 6);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(232, 226, 226);
+}
+
+.active {
+    background-color: #c5c6c5;
+}
+
+.container {
+    display: flex;
+
+    flex-direction: row-reverse;
+    margin: 0 300px 0 300px;
+    width: auto;
+}
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.lead__logo {
+    display: flex;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #00b39b;
+    font-size: 2.125rem;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+div {
+    display: block;
+}
+
+
+.par1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 300px 0 300px;
+
+}
+
+.group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    color: azure;
+    margin: 0 -100px;
+    
+
+}
+
+.polo1 {
+    width: 340px;
+    height: 340px;
+    background-color: #00b39b;
+    border-radius: 10px;
+
+}
+
+.polo2 {
+    width: 340px;
+    height: 340px;
+    background: #3d83df;
+    border-radius: 10px;
+}
+
+.polo3 {
+    width: 340px;
+    height: 340px;
+    background-color: #1b2734;
+    border-radius: 10px;
+}
+
+.golf{
+    display: flex;
+    font-size:x-large
+    
+
+}
+
+.golf2{
+    display: grid;
+    justify-content: center;
+    margin: 0 200px;
+    grid-template-columns: 40% 60%
+     
+}
+
+
